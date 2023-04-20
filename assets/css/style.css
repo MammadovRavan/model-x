@@ -1,0 +1,285 @@
+.navbar {
+
+    background-color: #CA1016;
+    justify-content:space-evenly;
+    display: flex;
+}
+.links  :nth-child(1){
+    font-size: 20px;
+    padding-right: 100px;
+}
+.links a{
+   padding-left: 10px;
+}
+
+.navbar a {
+    color: #fff;
+    cursor: pointer;
+}
+
+.elaveEt {
+    width: 103px;
+    height: 40px;
+    background-color: #7ED321;
+    border: 1px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.bars a {
+    display: none;
+}
+.card1> .card-top{
+    border: 1px solid;
+    /* width: 25%; */
+    justify-content: space-between;
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.card2> .card-top{
+    border: 1px solid;
+    /* width: 25%; */
+    justify-content: space-between;
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.card1> .card-bottom> .left-card, .right-card{
+    border: 1px solid;
+    justify-content: left;
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    /* width: 12.5%; */
+}
+.card-bottom{
+    display: flex;
+}
+.card1{
+    padding: 10px;
+    flex-basis: 25%;
+    min-width: 250px;
+}
+.card2> .card-bottom> .left-card2, .center-card, .right-card2{
+    border: 1px solid;
+    justify-content: left;
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    /* width: 8.3%; */
+}
+.card2{
+    padding: 10px;
+    flex-basis: 25%;
+    min-width: 250px;
+}
+.card3> .card-top> .left-card3, .center-card3, .right-card3{
+    border: 1px solid;
+    justify-content: left;
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    /* width: 8.3%; */
+}
+.card3> .card-top{
+    display: flex;
+}
+.card3> .card-bottom{
+    border: 1px solid;
+    /* width: 25%; */
+    justify-content: space-between;
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.card3{
+    padding: 10px;
+    flex-basis: 25%;
+    min-width: 250px;
+}
+.card4> .card-top{
+    border: 1px solid;
+    /* width: 25%; */
+    justify-content: space-between;
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.card4> .card-bottom> .left-card4, .right-card4{
+    border: 1px solid;
+    justify-content: left;
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    /* width: 12.5% ; */
+    justify-content: space-between;
+}
+.filter-cards{
+    display: flex;
+    /* width: 100%;
+    flex-basis: 100%; */
+}
+.filter-cards a{
+  color: #666;
+}
+.card4{
+    padding: 10px;
+    flex-basis: 25%;
+    min-width: 250px;
+}
+
+.card1> .card-bottom> .left-card, .right-card{
+    flex-basis: 50%;
+}
+.card2> .card-bottom> .left-card2, .center-card, .right-card2{
+    flex-basis: 33.3%;
+}
+.card3> .card-top> .left-card3, .center-card3, .right-card3{
+    flex-basis: 33.3%;
+}
+.card4> .card-bottom> .left-card4, .right-card4{
+    flex-basis: 50%;
+}
+.header-bottom> .left-side{
+    display: flex;
+}
+.header-bottom> .right-side a{
+color: #CA1016;
+}
+.header-bottom> .right-side :nth-child(2){
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header-bottom> .right-side button{
+    background-color: #CA1016;
+    color: #fff;
+    border-radius: 8px;
+    height: 40px;
+    width: 200px;
+    border: 1px solid #CA1016;
+}
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 100px 10px;
+}
+@media(max-width:1072px){
+.bars a{
+display: flex;
+}
+.links  :nth-child(1){
+    font-size: 18px;
+    padding-right: 0px;
+}
+
+.links a{
+    display: none;
+}
+.links :nth-child(1){
+    display: flex;
+}
+
+
+
+}
+@media(max-width:1001px){
+    .filter-cards{
+        flex-wrap: wrap;
+    }
+    .card1, .card2, .card3, .card4{
+        flex-basis: 50%;
+      }
+    .navbar{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+@media(max-width:800px){
+.navbar{
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.filter-cards a{
+    font-size: 16px;
+}
+}
+@media(max-width:700px){
+    .header-bottom> .right-side button{
+        width: 120px;
+        font-size: 16px;
+    }
+    .header-bottom> .right-side a{
+        font-size: 16px;
+    }
+    .header-bottom> .right-side :nth-child(2){
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .navbar button{
+        width: 90px;
+        height: 25px;
+        font-size: 16px;
+    }
+}
+@media(max-width:574px){
+.header-bottom{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.navbar{
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header-bottom> .right-side button{
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+}
+.header-bottom> .right-side, .left-side a{
+    font-size: 13px;
+}
+.header-bottom> .right-side p{
+    font-size: 13px;
+}
+.header-bottom> .right-side :nth-child(2){
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+}
+.card> .card-top img{
+    /* width: 450px;
+    height: 266px; */
+    width: 100%;
+}
+.card> .card-bottom{
+    display: block;
+}
+.card{
+    margin-bottom: 15px;
+}
+.card> .card-top> .heart a{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-size: 24px;
+}
+
